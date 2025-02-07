@@ -1,0 +1,42 @@
+@use 'hero';
+@use 'infos_bar';
+@use 'buttons';
+@use 'event';
+
+
+@font-face {
+    font-family: Army-rust;
+    src:url(/src/styles/font/ARMY_RUST.ttf);
+    
+}
+
+@font-face {
+    font-family: army-ver;
+    src: url(/src/styles/font/Ver_Army.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    list-style: none;
+    overflow-x: hidden;
+}
+
+.container{
+    font-family: Roboto, sans-serif;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    
+
+    @media (max-width: 640px){
+        max-width: 80%;
+    }
+
+    @media (max-width: 1024px){
+        max-width: 90%;
+    }
+}

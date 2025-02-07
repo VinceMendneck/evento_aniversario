@@ -1,0 +1,43 @@
+.button{
+    padding: 12px;
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: army-rust;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 3px #000000;
+    paint-order: stroke fill;
+
+
+    &--primary{
+        color: #fff;
+        background-color: #0b2407;
+
+    }
+
+    @media(max-width: 640px){
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+
+    @media((min-width: 641px) and (max-width:825px)){
+    display: block;
+    justify-content: center;
+    width: 38%;
+    }
+
+    @media(max-width: 1023px){
+        display: flex;
+        align-items: center;
+
+        &--primary{
+            margin-left: 8px;
+;
+        }
+    }
+}
