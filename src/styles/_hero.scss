@@ -6,6 +6,9 @@
     background-size: cover;
     position: relative;
 
+
+    
+
     .container{
         position: relative;
     }
@@ -47,13 +50,25 @@
         
         padding: 40px 0;
         &__logo{
-            height: 120px;
+            height: 150px;
+
+
         }
 
         &__text{
-            font-size: 30px;
+            font-size: 38px;
             line-height: 28px;
             margin: 24px 0;
         }
+        @media(max-width:640px){
+            &__logo{
+                height: 140px;
+            }
+            &__text{
+                font-size: 30px;
+            }
+        }
     }
+
+
 }
