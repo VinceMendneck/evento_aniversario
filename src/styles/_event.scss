@@ -15,7 +15,7 @@
         text-align: center;
         color: #FFF;
 
-        @media(max-width:640px){
+        @media(max-width:825px){
             font-size: 32px;
         }
 
@@ -72,16 +72,17 @@
         }
     }
 
-    @media(max-width:640px){
+    @media(max-width:683px){
         
         .container{
             display: block;
         }
 
         &__image{
+            display: block;
             width: 100%;
             margin: 0 auto;
-            justify-content: center;
+            
             
         }
 

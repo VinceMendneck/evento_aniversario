@@ -43,7 +43,7 @@
         border-radius: 70px;
     }    
 
-    @media(max-width:640px){
+    @media(max-width:825px){
         
         padding: 40px 0;
         &__logo{
@@ -51,7 +51,7 @@
         }
 
         &__text{
-            font-size: 22px;
+            font-size: 30px;
             line-height: 28px;
             margin: 24px 0;
         }
